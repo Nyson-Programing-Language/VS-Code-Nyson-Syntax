@@ -13,7 +13,7 @@
 		"keywords": {
 			"patterns": [{
 				"name": "keyword.control.nys",
-				"match": "\\b(if|while|for|return)\\b"
+				"match": "\\b(if|log|time|math|loop|round|dec|func|imp|input|sleep|trim|getcont|setcont|GET|POST|exec|audio|time|str|anon|int)\\b"
 			}]
 		},
 		"strings": {
