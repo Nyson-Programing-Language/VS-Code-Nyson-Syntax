@@ -6,6 +6,9 @@
 			"include": "#keywords"
 		},
 		{
+			"include": "#operators"
+		},
+		{
 			"include": "#strings"
 		}
 	],
@@ -14,6 +17,12 @@
 			"patterns": [{
 				"name": "keyword.control.nys",
 				"match": "\\b(if|log|time|math|loop|round|dec|func|imp|input|sleep|trim|getcont|setcont|GET|POST|exec|audio|time|str|anon|int)\\b"
+			}]
+		},
+		"operators": {
+			"patterns": [{
+				"name": "keyword.operator.comparison.nys",
+				"match": "!=|==|>=|<=|>|<"
 			}]
 		},
 		"strings": {
