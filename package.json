@@ -1,0 +1,25 @@
+{
+    "name": "nys",
+    "displayName": "nys",
+    "description": "Nyson programing language",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.57.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "nys",
+            "aliases": ["Nyson Programing language", "nys"],
+            "extensions": [".nys"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "nys",
+            "scopeName": "source.nys",
+            "path": "./syntaxes/nys.tmLanguage.json"
+        }]
+    }
+}
